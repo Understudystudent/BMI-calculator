@@ -34,3 +34,9 @@ button{
     color: black;
     background-color: rgb(84, 185, 185);
 }
+
+input {
+    max-height: 1rem;
+    width: auto;
+
+}
