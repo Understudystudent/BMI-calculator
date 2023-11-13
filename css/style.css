@@ -1,0 +1,26 @@
+*
+::after
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(225, 225, 225);
+}
+
+h1 {
+    padding-top: 5rem;
+    text-align: center;
+}
+.cal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 700px) {
+    .cal-container {
+        flex-direction: row;
+    }
+}
