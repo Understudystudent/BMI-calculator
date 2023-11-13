@@ -8,19 +8,29 @@
 
 body{
     background-color: rgb(225, 225, 225);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
 }
 
 h1 {
     padding-top: 5rem;
     text-align: center;
 }
-.cal-container {
+.cal-container, h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+
 }
-@media screen and (min-width: 700px) {
-    .cal-container {
-        flex-direction: row;
-    }
+
+span {
+    color: blue;
+    text-decoration: underline blue;
+}
+
+button{
+    color: black;
+    background-color: rgb(84, 185, 185);
 }
